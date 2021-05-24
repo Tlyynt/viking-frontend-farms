@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'VIKING-BNB LP',
+    lpSymbol: 'VIKINGB-BNB LP',
     lpAddresses: {
-      97: '',
-      56: '0xc79173e5f6501d7c1ab2f4e7544b13fc6562ce6a',
+      97: '0x82e6a9e8882eb7dedb907a1d102fbb65d5eae70e',
+      56: '0x82e6a9e8882eb7dedb907a1d102fbb65d5eae70e',
     },
     tokenSymbol: 'VIKING',
     tokenAddresses: {
-      97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      97: '0xbD8a0322D9166D4F89196D457e00AEF37751F628',
+      56: '0xbD8a0322D9166D4F89196D457e00AEF37751F628',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
